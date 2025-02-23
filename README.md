@@ -9,6 +9,8 @@ Starting up with the License plate localisation part along with segmenting the l
         * Explored Labelme and CVAT for labelling and annotating.
         * Time consuming to manually annotate the entire dataset.
         * Downloading and using pretrained models like Detectron2 by Meta AI to automate the annotation process.Finally manual scrutiny and correction of bounding boxes using CVAT before training.
-                --pip install 'git+https://github.com/facebookresearch/detectron2.git'
+             * pip install 'git+https://github.com/facebookresearch/detectron2.git'
+             * Uses a ResNet-50 backbone with a Feature Pyramid Network (FPN).
+             * Is pre-trained on COCO dataset for instance segmentation (detecting objects + drawing masks).
                 
         * Training a Mask RCNN to detect license plates for new images.
