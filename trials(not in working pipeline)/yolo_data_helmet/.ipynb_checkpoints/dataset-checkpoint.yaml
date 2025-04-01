@@ -1,0 +1,11 @@
+# YOLO dataset configuration
+path: /home/STUDENTS/MSC/DS/22PD/22pd18/DL-package/yolo_data_helmet
+train: train/images
+val: valid/images
+test: test/images
+
+# Number of classes
+nc: 2
+
+# Class names
+names: ['class_0', 'helmet']

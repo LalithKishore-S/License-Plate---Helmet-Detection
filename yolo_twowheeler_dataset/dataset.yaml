@@ -1,0 +1,11 @@
+# YOLO dataset configuration
+path: /home/STUDENTS/MSC/DS/22PD/22pd18/DL-package/yolo_twowheeler_dataset
+train: train/images
+val: valid/images
+test: test/images
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['motorcyclist']
